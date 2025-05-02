@@ -5,7 +5,6 @@ import { useEffect } from "react";
 import GitHubRepoButton from "./components/GitHubButton";
 
 function App() {
-  require("dotenv").config();
   useEffect(() => {
     console.log("Firebase auth:", auth);
     console.log("Firestore db:", db);
