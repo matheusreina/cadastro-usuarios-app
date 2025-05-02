@@ -3,12 +3,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_PROJETO.firebaseapp.com",
-  projectId: "SEU_PROJETO",
-  storageBucket: "SEU_PROJETO.appspot.com",
-  messagingSenderId: "SEU_SENDER_ID",
-  appId: "SEU_APP_ID",
+  apiKey: "AIzaSyBCjq_J3ry2W8pIcwPLZPrxnKQUNMzOi10",
+  authDomain: "cadastro-usuarios-app.firebaseapp.com",
+  projectId: "cadastro-usuarios-app",
+  storageBucket: "cadastro-usuarios-app.firebasestorage.app",
+  messagingSenderId: "303677042113",
+  appId: "1:303677042113:web:a678ecf656abf93ac65340",
+  measurementId: "G-R2E03HL671",
 };
 
 const app = initializeApp(firebaseConfig);

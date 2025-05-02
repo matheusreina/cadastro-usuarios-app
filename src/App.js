@@ -1,7 +1,14 @@
 import { RouterProvider } from "react-router-dom";
 import { router } from "./routes";
+import { auth, db } from "./firebaseConfig";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    console.log("Firebase auth:", auth);
+    console.log("Firestore db:", db);
+  }, []);
+
   return (
     <div className="App">
       <RouterProvider router={router} />
